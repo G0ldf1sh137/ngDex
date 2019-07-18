@@ -3,16 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
+import { PokemonModule } from './pokemon/pokemon.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PokemonCardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PokemonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
