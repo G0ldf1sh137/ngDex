@@ -7,7 +7,8 @@ import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
     PokemonCardComponent,
   ],
   imports: [
-    CommonModule,
+    CommonModule
+    
   ],
   exports: [
     PokemonCardComponent,
