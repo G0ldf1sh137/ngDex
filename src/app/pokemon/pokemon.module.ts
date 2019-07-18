@@ -15,4 +15,4 @@ import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 })
 export class PokemonModule {
 
- }
+}
